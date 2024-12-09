@@ -29,7 +29,7 @@ public class LaskinApp {
 
         counter ++;
         if (result == 5){
-            System.out.println("Kiitos laskimen käytöstä.\n" + "Heippa!");
+            System.out.println("Heippa!");
             break;
         }
 
@@ -65,6 +65,7 @@ public class LaskinApp {
         }
     
     }
+    System.out.println("Kiitos kun käytit laskinta!");
     }
 } // end of main 
 
