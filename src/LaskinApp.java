@@ -7,15 +7,17 @@ public class LaskinApp {
         int counter = 0;
 
         laskin laskin1 = new laskin();
-        yhteenlasku yhteenlasku1 = new yhteenlasku(9,0);
+        yhteenlasku yhteenlasku1 = new yhteenlasku();
         miinuslasku miinuslasku1 = new miinuslasku();
 
+        // Alkutervehdys
         System.out.println(" ");
         System.out.println("***********************");
         System.out.println(" Tervetuloa laskimeen!");
         System.out.println("***********************");
         System.out.println(" ");
 
+        //Laskimen käyttö ja looppaus
         while(counter < 10){
         System.out.println("Valitse yksi seuraavista numeroista sen perusteella, mitä haluat laskea:");
         System.out.println("numero 1. jos haluat laskea yhteenlaskun (+)");
@@ -42,7 +44,6 @@ public class LaskinApp {
         double numero2 = Double.parseDouble(input);
 
         if (result == 1){
-            
 
             yhteenlasku1.numero1 = numero1;
             yhteenlasku1.numero2 = numero2;
@@ -69,6 +70,7 @@ public class LaskinApp {
     }
 } // end of main 
 
+//Kantaluokka
 class laskin{
 
     public double numero1;
