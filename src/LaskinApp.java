@@ -9,6 +9,8 @@ public class LaskinApp {
         laskin laskin1 = new laskin();
         yhteenlasku yhteenlasku1 = new yhteenlasku();
         miinuslasku miinuslasku1 = new miinuslasku();
+        kertolasku kertolasku1 = new kertolasku();
+        jakolasku jakolasku1 = new jakolasku();
 
         // Alkutervehdys
         System.out.println(" ");
@@ -57,11 +59,15 @@ public class LaskinApp {
             miinuslasku1.laskutapahtuma(numero1, numero2);
         }
         if (result == 3){
-
+            kertolasku1.numero1 = numero1;
+            kertolasku1.numero2 = numero2;
+            kertolasku1.laskutapahtuma(numero1, numero2);
             
         }
         if (result == 4){
-
+            jakolasku1.numero1 = numero1;
+            jakolasku1.numero2 = numero2;
+            jakolasku1.laskutapahtuma(numero1, numero2);
             
         }
     
