@@ -123,4 +123,21 @@ class miinuslasku extends laskin{
 
 } // end of miinulasku
 
+class jakolasku extends laskin{
+ 
+    public jakolasku(){
+        super();
+    }
+    public jakolasku(double n1, double n2){
+        this.numero1 = n1;
+        this.numero2 = n2;
+    }
+ 
+    public void laskutapahtuma (double n1, double n2){
+        double tulos = n1 / n2;
+        System.out.println(n1 + " / " + n2 + " = " + tulos);
+    }
+ 
+ 
+} // end of jakolasku
 
